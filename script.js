@@ -69,7 +69,7 @@ function at10() {
     var n1 = parseInt(prompt("Insira numero"))
     var n2 = parseInt(prompt("Insira numero"))
     var n3 = parseInt(prompt("Insira numero"))
-    var media = (n1 + n2 + n3) / 10
+    var media = (n1 + n2 + n3) / 3
     console.log("A media é: " + media)
 }
 function at11() {
@@ -164,7 +164,7 @@ function at17() {
     else if (n % 3 == 0) {
         console.log("O numero é multiplo de 3")
     }
-    else if (n % 3 == 0) {
+    else if (n % 5 == 0) {
         console.log("O numero é multiplo de 5")
     }
     else {
