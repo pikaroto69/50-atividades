@@ -69,7 +69,7 @@ function at10() {
     var n1 = parseInt(prompt("Insira numero"))
     var n2 = parseInt(prompt("Insira numero"))
     var n3 = parseInt(prompt("Insira numero"))
-    var media = (n1 + n2 + n3) / 2
+    var media = (n1 + n2 + n3) / 10
     console.log("A media é: " + media)
 }
 function at11() {
